@@ -1,7 +1,8 @@
 let currentDay = document.querySelector("#currentDay");
 const currentHour = moment().format("k");
 
-let tasksArr = []
+
+let tasksArray = []
 
 //displays date at top of page
 let now = moment().format("dddd, MMM Do, YYYY");
@@ -36,8 +37,8 @@ function setColor() {
                 hourOfDay[i].setAttribute('class', 'time-block future')
             }
         }
-
+    
     }
-}
+    }
 
 setColor();
